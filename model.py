@@ -7,8 +7,6 @@ import plac
 import spacy
 from tqdm import tqdm
 
-from spacy.gold import GoldParse
-from spacy.scorer import Scorer
 
 LABEL = ['fund-by','fund-to','fund-amount','fund-round','fund-year']
 
